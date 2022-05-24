@@ -19,3 +19,6 @@ If you are using a mac or linux operating system, you should already have it ins
 3. it should output the git version
 4. if git is not already installed, follow this tutorial: https://www.atlassian.com/git/tutorials/install-git
 5. it gives you few options for install, but Homebrew package manager is recommended.
+## Set up in code editor
+You can choose whatever code editor you prefer. We will cover a few of them in the following steps.
+### VS Code
