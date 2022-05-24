@@ -24,3 +24,5 @@ You can choose whatever code editor you prefer. We will cover a few of them in t
 ### VS Code
 Visual Studio Code is a free code editor made by Microsoft and is widly used. You can install it free from https://code.visualstudio.com/
 It is available on every major operating system.
+1. first create your repository(folder) in your local drive.
+2. 
