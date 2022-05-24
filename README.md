@@ -22,3 +22,5 @@ If you are using a mac or linux operating system, you should already have it ins
 ## Set up in code editor
 You can choose whatever code editor you prefer. We will cover a few of them in the following steps.
 ### VS Code
+Visual Studio Code is a free code editor made by Microsoft and is widly used. You can install it free from https://code.visualstudio.com/
+It is available on every major operating system.
