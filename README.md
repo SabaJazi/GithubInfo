@@ -6,3 +6,7 @@ Some description will be added later
 3. give a name for your repository in "Repository name" box.
 4. choose either private or public for your repository(if private, only you and other contributors can see it).
 5. click on "create repository" button.
+
+## Using Git on Local machine
+### Mac
+If you are using a mac or linux operating system, you should already have it installed. You can check it this way:
