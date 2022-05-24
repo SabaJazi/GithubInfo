@@ -1,6 +1,6 @@
 # Demo
 Some description will be added later
-## Creating a Repository
+## Creating a Repository in Github
 1. sign in to github account.
 2. on the first page, click on "+" sign on top right, choose "New Repository".
 3. give a name for your repository in "Repository name" box.
