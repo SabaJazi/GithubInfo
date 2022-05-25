@@ -26,3 +26,16 @@ Visual Studio Code is a free code editor made by Microsoft and is widly used. Yo
 It is available on every major operating system.
 1. first create your repository(folder) in your local drive.
 2. 
+# Important commands 
+## git status
+check the see the changes (change in code, new files,...)
+The files names will be in red(or orange) in VScode
+## git add 
+you need to add something after "add". in most cases we use "." because we want to add all the changes.
+so it will look like this: "git add ."
+After entering this line, those file names will turn green and saved in local repository.
+## git commit -m -m
+to let the git know about your changes and updates, you run this command with first -m for commit title and second -m for optional description of commit(you can skip the second one)
+## git push origin branch
+to update the remote repository(aka github)
+you have to declare the origin and the branch you are pushing to. after running this command you can refresh and see changes in github repository.
