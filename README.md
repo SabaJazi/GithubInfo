@@ -39,3 +39,10 @@ to let the git know about your changes and updates, you run this command with fi
 ## git push origin branch
 to update the remote repository(aka github)
 you have to declare the origin and the branch you are pushing to. after running this command you can refresh and see changes in github repository.
+
+## git checkout
+it is used to switch between branches.for example you can switch to main branch this way:
+    git checkout main
+You can create a new branch with it also by giving it the parameter -b. for example:
+    git checkout -b feature-readme-instructions
+after creating the branch you will be automaticly move to the new branch
