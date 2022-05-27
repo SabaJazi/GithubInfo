@@ -60,12 +60,18 @@ git reset HEAD~1
 it points to a on step further than the commit and reset from that point.for example here, it will unstage the readme.md
 if you want to undo a specific commit staging, there is no straight forward way to find that commit. 
 What we do, is to see the log of commits using this command:
- git log
+## git log
 they will be listed as reversed chronological order.(the lasred will be shown first)
 the commits are known to git with a unique hash. So we can copy the hash of the commit we want to go back to and use git reset with that.
+to make the lsit of logs shorter we can use, 
+git log --oneline
 ## git diff branch-name
 to show the differences between what is in the branch and what you have changed.
 
 ## git fetch
 to see the latest update on remote repository. It shows 1 to last commit id to the last commit id change and the branch it was done.
 if the last commit id in fetch is not the last id in git log output, then it means the remote repository is some commits ahead of local.
+
+## git pull origin branch-name
+to update our local branch with the remote branch, we use pull command.
+!Notic: make sure you have commited and pushed what you have done before that, or do the pull commit before any changes, because it can cause conflict if pushing to the same branch.
