@@ -46,3 +46,19 @@ it is used to switch between branches.for example you can switch to main branch 
 You can create a new branch with it also by giving it the parameter -b. for example:
     git checkout -b feature-readme-instructions
 after creating the branch you will be automaticly move to the new branch
+
+## git reset
+to undo the last thing you did.
+for example if we mistakenly stage the readme.md file, to undo that we use this command:
+git reset readme.md
+(git reset will work too, it undos all last changes, but using the file name only undos that file)
+to undo a commit, we use
+git reset HEAD( HEAD is the pointer to the last commit)
+If we use 
+git reset HEAD~1
+it points to a on step further than the commit and reset from that point.for example here, it will unstage the readme.md
+if you want to undo a specific commit staging, there is no straight forward way to find that commit. 
+What we do, is to see the log of commits using this command:
+ git log
+they will be listed as reversed chronological order.(the lasred will be shown first)
+the commits are known to git with a unique hash. So we can copy the hash of the commit we want to go back to and use git reset with that.
