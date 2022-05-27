@@ -1,6 +1,5 @@
 # Demo
-a short abstract from this tutorial:
-https://youtu.be/RGOj5yH7evk
+Some description will be added later
 ## Creating a Repository in Github
 1. sign in to github account.
 2. on the first page, click on "+" sign on top right, choose "New Repository".
@@ -63,3 +62,9 @@ What we do, is to see the log of commits using this command:
  git log
 they will be listed as reversed chronological order.(the lasred will be shown first)
 the commits are known to git with a unique hash. So we can copy the hash of the commit we want to go back to and use git reset with that.
+## git diff branch-name
+to show the differences between what is in the branch and what you have changed.
+
+## git fetch
+to see the latest update on remote repository. It shows 1 to last commit id to the last commit id change and the branch it was done.
+if the last commit id in fetch is not the last id in git log output, then it means the remote repository is some commits ahead of local.
