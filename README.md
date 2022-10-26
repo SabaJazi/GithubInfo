@@ -75,3 +75,7 @@ if the last commit id in fetch is not the last id in git log output, then it mea
 ## git pull origin branch-name
 to update our local branch with the remote branch, we use pull command.
 !Notic: make sure you have commited and pushed what you have done before that, or do the pull commit before any changes, because it can cause conflict if pushing to the same branch.
+
+## how to pull a repository from github to your local system
+first, in vscode, if terminal window is not open, click on view--> terminal to open it.
+Then, using command "git clone" we will clone the repository on our machine.
