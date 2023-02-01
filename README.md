@@ -26,7 +26,11 @@ You can choose whatever code editor you prefer. We will cover a few of them in t
 Visual Studio Code is a free code editor made by Microsoft and is widly used. You can install it free from https://code.visualstudio.com/
 It is available on every major operating system.
 1. first create your repository(folder) in your local drive.
-2. 
+2. If you want to mange your code in conda environments, go to "Anaconda installation".
+3.
+### Anaconda installation
+1. Download anaconda or miniconda installer from this website : https://docs.anaconda.com/anaconda/install/
+2.
 # Important commands 
 ## git status
 check the see the changes (change in code, new files,...)
