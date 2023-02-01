@@ -30,7 +30,10 @@ It is available on every major operating system.
 3.
 ### Anaconda installation
 1. Download anaconda or miniconda installer from this website : https://docs.anaconda.com/anaconda/install/
-2.
+2.miniconda is a much smaller package of anaconda that only includes neccessary packages and doen't come with hundreads of libraries that anaconda comes with.
+3.Install miniconda
+4.check your installation from this instruction: https://docs.anaconda.com/anaconda/install/verify-install/
+5.
 # Important commands 
 ## git status
 check the see the changes (change in code, new files,...)
