@@ -13,6 +13,7 @@ https://youtu.be/RGOj5yH7evk
 If git is not already installed, follow this tutorial: https://www.atlassian.com/git/tutorials/install-git
 1. click on "Install Git on Windows"
 2. when you download the Git Windows installer, it is recommended to choose "Git Bash" option from the install menue(to have an easier time).
+3. choose a default editor for git(vim is default but it is old and hard to use)
 ### Mac
 If you are using a mac or linux operating system, you should already have it installed. You can check it this way:
 1. open terminal application
